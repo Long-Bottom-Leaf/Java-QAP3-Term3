@@ -53,6 +53,7 @@ public class Teacher extends Person {
      * @return a formatted string containing the teacher's details
      */
     public String toString() {
-        return super.toString() + ", subject: " + mySubject + ", salary: $" + mySalary;
+        String formattedSalary = String.format("$%,.2f", mySalary);
+        return super.toString() + ", subject: " + mySubject + ", salary: " + formattedSalary;
     }
 }
