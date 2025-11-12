@@ -5,7 +5,7 @@ package Problem1;
  * name, age, and gender. This class serves as a superclass for more specific
  * types of people like Student and Teacher.
  * 
- * @author 
+ * @author Stephen
  */
 public class Person {
     // Instance variables

@@ -7,7 +7,7 @@ package Problem1;
  * This class demonstrates inheritance by adding new fields and methods while
  * reusing functionality from the Person superclass.
  * 
- * @author 
+ * @author Stephen
  */
 public class Student extends Person {
     protected String myIdNum;  // student ID number

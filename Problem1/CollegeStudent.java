@@ -7,7 +7,7 @@ package Problem1;
  * 
  * This class further extends the concept of inheritance from Student.
  * 
- * author 
+ * @author Stephen
  */
 public class CollegeStudent extends Student {
     private int myYear;     // year in college (1=FROSH, 2=SOPH, etc.)

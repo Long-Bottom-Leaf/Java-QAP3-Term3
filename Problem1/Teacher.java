@@ -6,7 +6,7 @@ package Problem1;
  * 
  * This class demonstrates the use of inheritance and the super keyword.
  * 
- * @author 
+ * @author Stephen
  */
 public class Teacher extends Person {
     private String mySubject; // subject taught by the teacher
