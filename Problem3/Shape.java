@@ -21,6 +21,6 @@ public abstract class Shape {
     // Unified print for all shapes
     @Override
     public String toString() {
-        return String.format("%s: Area = %.2f, Perimeter = %.2f", name, getArea(), getPerimeter());
+        return String.format("%shape: Area = %.2f, Perimeter = %.2f", name, getArea(), getPerimeter());
     }
 }
