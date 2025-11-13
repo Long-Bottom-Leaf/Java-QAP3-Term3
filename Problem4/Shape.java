@@ -4,12 +4,15 @@ package Problem4;
  * Abstract superclass for all geometric shapes.
  */
 public abstract class Shape implements Scalable {
+    // Name of the shape
     protected String name;
 
+    // Constructor
     public Shape(String name) {
         this.name = name;
     }
 
+    // Getter for name
     public String getName() {
         return name;
     }
